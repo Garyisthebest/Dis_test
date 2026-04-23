@@ -2,6 +2,7 @@
   <div class="nav-box">
     <router-link to="/user">用户管理</router-link>
     <router-link to="/order">订单管理</router-link>
+    <div>欢迎你</div>
   </div>
 
   <router-view />
