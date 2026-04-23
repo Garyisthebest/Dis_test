@@ -11,5 +11,5 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String orderName;
-    private Long userId;//这次我加了两个备注
+    private Long userId;
 }
