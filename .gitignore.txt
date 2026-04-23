@@ -1,0 +1,17 @@
+# 后端忽略
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+**/src/test/**/target/
+*.log
+*.iml
+.idea/
+*.class
+
+# 前端忽略
+node_modules/
+dist/
+.env
+.env.local
+.npmrc
+.DS_Store
